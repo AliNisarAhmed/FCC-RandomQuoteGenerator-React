@@ -11,8 +11,8 @@ class App extends Component {
     this.state = {
       quotes,
       currentQuote: 0,
-      color1: "#800080",
-      color2: "#4b0082"
+      color1: "",
+      color2: ""
     };
   }
 
