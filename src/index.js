@@ -31,7 +31,7 @@ class App extends Component {
 
   randomHex = () => {
     let hex = this.randomInt().toString(16);
-    if (hex.length < 1) {
+    if (hex.length <= 1) {
       hex = "0" + hex;
     }
     return hex;
